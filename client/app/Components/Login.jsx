@@ -71,6 +71,7 @@ class Login extends React.Component {
 										Registrar
 									</Button>
 								</Grid>
+								<div>EHHH HOLA ESTOY PROBANDO EL PULL REQ</div>
 							</Grid>
             </div>
         )
