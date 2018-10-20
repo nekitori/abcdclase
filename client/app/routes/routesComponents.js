@@ -6,6 +6,10 @@ import * as routes from './route.js'
 import Home from '../Components/Home.jsx'
 import Login from '../Components/Login.jsx'
 import SignUp from '../Components/SignUp.jsx'
+import PrimerComponente from '../Components/PrimerComponente.jsx'
+import SegundoComponente from '../Components/SegundoComponente.jsx'
+import TercerComponente from '../Components/TercerComponente.jsx'
+
 
 const RoutesCom = [
     {
@@ -19,6 +23,18 @@ const RoutesCom = [
     {
         route: routes.HOME,
         components: <Home/>
+    },
+    {
+        route: routes.PRIMERCOMPONENTE,
+        components: <PrimerComponente/>
+    },
+    {
+        route: routes.SEGUNDOCOMPONENTE,
+        components: <SegundoComponente/>
+    },
+    {
+        route: routes.TERCERCOMPONENTE,
+        components: <TercerComponente/>
     }
 ]
 export default RoutesCom
